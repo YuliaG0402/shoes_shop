@@ -1,26 +1,51 @@
 body {
-    font-family: sans-serif;
+    background-color:lightyellow ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+    }
+header {
+    background-color:lightblue;
+    font-weight:600;
+   
+    }
+.logo{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    display: flex;
+    justify-content: space-between;
 }
 
-h1 {
-    text-align: center;
-    background-color: #200772;
+.nav-link {
+    font-size: 24px;
     color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
 }
 
-.gallery{
-    background-color: #c9f76f;
-}
 
-ul {
-    font-size: 20px;
+    
+body h1 {
+    text-align:center ;
+    
 }
-
 footer {
-    background-color: #c9f76f;
-    padding: 10px;
+    background-color:lightblue ;
+    height: 100px;
 }
-
-footer img {
-    width: 60px;
+footer h4 {
+   background-color:white ;
+}
+.photo1 {
+    height:270px ;
+    width:280px ;
+}
+.photo2 {
+    height:270px ;
+    width:280px ;
 }

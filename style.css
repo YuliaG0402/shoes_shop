@@ -50,6 +50,9 @@ footer h4 {
     width:280px ;
 }
 .photos{
-    margin-left:auto;
-    margin-right:auto;
+    position: fixed; /* or absolute */
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height:100px;
 }

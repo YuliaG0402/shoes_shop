@@ -1,61 +1,43 @@
 body {
-    font-family: sans-serif;
-    background-color: white;
-}
-
+    background-color:lightyellow ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+    }
 header {
-    justify-content: space-between;
-    padding: ;
-    margin-bottom: 20px;
-    display: flex;
+    background-color:lightblue;
+    font-weight:600;
+   
+    }
+.logo{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
 }
-
-.button {
-    background-color: #36bbce;
-    color: black;
-    text-decoration: none;
-    padding: 15px;
-    font-size: 24px;
-    border-radius: 10px;
-}
-
 nav {
     border-top: 5px solid white;
     border-bottom: 5px solid white;
-    padding: 25px 100px 25px 95px;
-    justify-content: space-between;
     display: flex;
+    justify-content: space-between;
 }
 
 .nav-link {
     font-size: 24px;
-    color: black;
+    color: white;
     text-decoration: none;
-}
-
-h1 {
-    text-align: center;
-    color: black;
-    font-size: 36px;
-    margin-top: ;
-    margin-bottom: ;
-}
-
-p {
-    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
 }
 
 
+    
+body h1 {
+    text-align:center ;
+    
+}
 footer {
-    background-color: white;
-    padding: ;
-    display: flex;
+    background-color:lightblue ;
+    height: 100px;
 }
-
-footer a {
-    margin-right: ;
-}
-
-footer p {
-    font-size: 24px;
+footer h4 {
+   background-color:white ;
 }
